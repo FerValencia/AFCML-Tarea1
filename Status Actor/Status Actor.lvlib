@@ -4,6 +4,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Add Msg.lvclass" Type="LVClass" URL="../../Status Actor Messages/Add Msg/Add Msg.lvclass"/>
+		<Item Name="add2 Msg.lvclass" Type="LVClass" URL="../../Status Actor Messages/add2 Msg/add2 Msg.lvclass"/>
+		<Item Name="maximo Msg.lvclass" Type="LVClass" URL="../../Status Actor Messages/maximo Msg/maximo Msg.lvclass"/>
+		<Item Name="prueba Msg.lvclass" Type="LVClass" URL="../../Status Actor Messages/prueba Msg/prueba Msg.lvclass"/>
+		<Item Name="reset Msg.lvclass" Type="LVClass" URL="../../Status Actor Messages/reset Msg/reset Msg.lvclass"/>
+		<Item Name="StartStop Msg.lvclass" Type="LVClass" URL="../../Status Actor Messages/StartStop Msg/StartStop Msg.lvclass"/>
+	</Item>
 	<Item Name="Status Actor.lvclass" Type="LVClass" URL="../Status Actor.lvclass"/>
 </Library>

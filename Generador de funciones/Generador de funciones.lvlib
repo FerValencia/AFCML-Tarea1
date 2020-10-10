@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Graph data Msg.lvclass" Type="LVClass" URL="../../Generador de funciones Messages/Graph data Msg/Graph data Msg.lvclass"/>
+		<Item Name="StartStop Msg.lvclass" Type="LVClass" URL="../../Generador de funciones Messages/StartStop Msg/StartStop Msg.lvclass"/>
+	</Item>
 	<Item Name="Generador de funciones.lvclass" Type="LVClass" URL="../Generador de funciones.lvclass"/>
 </Library>
